@@ -1,4 +1,4 @@
-# Matrix-Encryption-Simulator
+# Matrix-Encryption
 An encryption algorithm demonstrating how matrices are used in certain ciphers.
 
 Created in part of BSc. 
