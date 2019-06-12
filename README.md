@@ -8,6 +8,8 @@ OR: pip3 install numpy && pip3 install binascii && pip3 install tkinter
 
 Run: python3 main.py
 
+This is a demonstration where encryption and decryption run consecutively.
+
 # Description of algorithm
 Theoretical planning of the cipher arrived from technical analyses of existing ciphers and their algorithmic foundations. Certain technical aspects like, the symmetric structuring of Feistel Cipher, matrix operations in AES, the key generation and permutation functions of DES and the substitution characteristics of Hill Cipher have been integrated into the functionality of this cipher demonstration. 
 
@@ -19,7 +21,3 @@ Where the plaintext algorithm would normally take user input and store the alpha
 Once encryption has been applied, the encrypted base16 values are converted back into encrypted hexadecimal values and appended to the start of the file, in replace for the original bits. Decryption is the process of converting the encrypted hex values back to base 16 and dividing them against the key matrix to reveal the original base 16 values. These original base16 values are then converted back to the original hex values and appended to the start of the file, where the encrypted values are removed.
 
 This was created in part with my BSc in Cyber Security and IT Forensics. A full paper explaining the mathematics of the algorithm is available here: https://jacobdent.com/blog
-
-
-Encryption and decryption run consecutively.
-
