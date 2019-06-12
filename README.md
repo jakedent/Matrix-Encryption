@@ -8,7 +8,7 @@ OR: pip3 install numpy && pip3 install binascii && pip3 install tkinter
 
 Run: python3 main.py
 
-This is a demonstration where encryption and decryption run consecutively.
+This is a demonstration where encryption and decryption functions are called consecutively once the script has been run.
 
 # Description of algorithm
 Theoretical planning of the cipher arrived from technical analyses of existing ciphers and their algorithmic foundations. Certain technical aspects like, the symmetric structuring of Feistel Cipher, matrix operations in AES, the key generation and permutation functions of DES and the substitution characteristics of Hill Cipher have been integrated into the functionality of this cipher demonstration. 
